@@ -13,6 +13,12 @@ public class TestDriver {
 		r1.setColor("Red");
 		System.out.println(r1.toString());
 		
+		Rectangle r2 = new Rectangle(4, 6);
+		r2.getArea();
+		r2.setColor("Red");
+		System.out.println(r2.toString());
+		
+	
 		
 		Triangle t1 = new Triangle(5,10);
 		t1.getArea();

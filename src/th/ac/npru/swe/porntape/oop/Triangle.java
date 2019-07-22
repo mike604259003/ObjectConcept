@@ -12,8 +12,12 @@ public class Triangle extends Shape {
 
 	@Override
 	public double getArea() {
-		area = 0.5 * base * height;
+		calculate();
 		return area;
+	}
+
+	private void calculate() {
+		area = 0.5 * base * height;
 	}
 
 }
